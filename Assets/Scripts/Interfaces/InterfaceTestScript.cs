@@ -6,7 +6,8 @@ public class InterfaceTestScript : MonoBehaviour
 {
     // Start runs once when Play is pressed
     void Start()
-    { 
+    {
+        Debug.Log(" Starting test ");
 
         // Trapezium declaration
         Trapezium trapezium = new Trapezium();
@@ -26,6 +27,7 @@ public class InterfaceTestScript : MonoBehaviour
         nonagon.CalculateArea();
         nonagon.CalculatePerimeter();
 
+        Debug.Log(" Ending test ");
     }
 
     void Update()
